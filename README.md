@@ -58,4 +58,5 @@ B) More stable, production-like — **Caddy** + domain (requires DNS & port forw
 Notes & safety:
 - For quick tests, ngrok is easiest and provides HTTPS by default. It is ideal for alpha testing.
 - For long-running public sites, use Caddy or nginx + Let's Encrypt and follow security hardening steps (set `DEBUG=False`, keep `SECRET_KEY` secret, enable firewall rules and monitor logs).
+-(This program was made with clanker 'AI' assitance. Please don't crucify me. I litterally started coding yesterday, I wish to get to a point where I don't have to rely on the robots. Fuck the singularity.) 
 
